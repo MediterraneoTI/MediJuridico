@@ -65,7 +65,7 @@ const Home = () => {
 
           <View style={[styles.rowBetween, { marginTop: 10 }]}>
             <Text style={styles.numeroProcesso}>
-              {processo.processo}
+              {processo.pi}
             </Text>
 
             <TouchableOpacity

@@ -133,8 +133,8 @@ const DadosProcesso = () => {
 
           {[
             { label: "Data de Cadastro: ", value: processo?.Data_Cadastro?.split(' ')[0]},
-            { label: "Papel Contra: ", value: processo?.contra_papel },
-            { label: "Contra Titular: ", value: processo?.contra_titular },
+            { label: "Número do Processo: ", value: pi },
+            { label: "Parte Contrária: ", value: processo?.contra_titular },
             { label: "Objeto: ", value: processo?.objeto }
           ].map((item, i) => (
             <View key={i} style={styles.infoRow}>
